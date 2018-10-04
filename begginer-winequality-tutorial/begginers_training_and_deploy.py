@@ -51,3 +51,5 @@ def predict():
     return flask.jsonify(prediction)
 
 app.run(host='127.0.0.1', port=8080)
+
+# reference: https://medium.freecodecamp.org/a-beginners-guide-to-training-and-deploying-machine-learning-models-using-python-48a313502e5a
